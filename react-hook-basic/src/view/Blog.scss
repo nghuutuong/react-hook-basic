@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .blog-single{
+        display: flex;
+        min-height: auto;
+        max-width: 500px;
+        max-height: 400px;
+
+        .blog{
+            border: 1px solid grey;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 5px 10px;
+            text-align: left !important;
+            background-color: rgb(6, 10, 4);
+
+            .title{
+                font-style: inherit;
+            }
+        }
+    }
+    
+}
